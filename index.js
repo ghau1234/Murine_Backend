@@ -20,7 +20,7 @@ app.use(express.json());
 
 // Define CORS options
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://murine.onrender.com',
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify the allowed HTTP methods
     allowedHeaders: ['Content-Type', 'Authorization'], // Specify the allowed headers
 };
